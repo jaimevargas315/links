@@ -1,1 +1,104 @@
-My link in bio
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+      *
+      {
+        border: thin red solid;
+      }
+      body
+      {
+        display: flex;
+        padding-top: 40px;
+        padding-bottom: 40px;
+        background-color: #004643;
+        
+      }
+      .banner
+      {
+        display:flex;
+        justify-content: center;
+      }
+      .name {
+        color:#fffffe;
+        display:flex;
+        justify-content: center;
+      }
+      .social-icons a
+      {
+        color:#fffffe;
+        text-decoration: none;
+        display: flex;
+        justify-content: space-around;
+      }
+      .link
+      {
+        background-color: #f9bc60;
+        display: flex;
+        align-items: center;
+        padding: 5px;
+      }
+      .link a
+      {
+        color:#001e1d;
+        text-decoration: none;
+        text-align: center;
+        flex-grow: 1;
+      }
+
+      .banner-image
+      {
+        width:128px;
+        height: 128px;
+        object-fit: cover;
+        border-radius:128px;
+      }
+      .thumbnail
+      {
+        width: 48px;
+        height:48px;
+        border-radius: 48px;
+        object-fit: cover;
+      }
+      .items
+      {
+        display:flex;
+        flex-direction: column;
+        gap: 30px;
+        max-width: 640px;
+        flex-grow: 1;
+      }
+
+    </style>
+    
+  </head>
+<body>
+  <div class = "items">
+  <div class="banner">
+    <img src="thumbnails/face.PNG" alt="Jaime Vargas" class="banner-image">
+  </div>
+
+  <div class="name">
+    Jaime Vargas
+  </div>
+
+  <div class="social-icons">
+    <a href="https://github.com/jaimevargas315" target="_blank">
+      GitHub
+    </a>
+
+    <a href="https://www.twitch.tv/puma_partyy" target="_blank">
+      Twitch
+    </a>
+  </div>
+
+  <div class="link">
+    <a target="_blank" href="https://throne.com/puma_partyy"><img class="thumbnail" src="thumbnails/throne.webp" > Support me by donating through throne</a>
+  </div>
+
+  <div class="link">
+    <a target="_blank" href="https://treatstream.com/t/treat/puma_partyy"><img class ="thumbnail" src="thumbnails/tweatstweam.png" > Give me treats through treat stream</a>
+  </div>
+</div>
+</body>
+</html>
